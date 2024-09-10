@@ -70,7 +70,12 @@
     font-weight: 700;
     font-style: italic;
   }
-  
+   
+  body{
+    background-color: bisque;
+    font-family: Bai Jampuree;
+
+  }
   footer {
     background-color: black;
     color: white;
