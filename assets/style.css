@@ -72,7 +72,7 @@
   }
    
   body{
-    background-color: bisque;
+    background-color: url('img/bg-desktop.webp');0
     font-family: Bai Jampuree;
 
   }
@@ -113,4 +113,5 @@ footer p{
   border-radius: 0.6rem;
   font-size: 1vw;
 }
+
 
