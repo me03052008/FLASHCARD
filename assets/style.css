@@ -9,11 +9,6 @@ body {
   font-family: Bai Jamjuree;
 }
 
-.cartao {
-  flex: 1 0 calc(100% - 1rem);
-}
-
-
 #container {
   display: flex; 
   flex-wrap: wrap;
@@ -69,7 +64,10 @@ body {
 
 .cartao.active .cartao__conteudo {
   transform: rotateY(180deg);
+}.cartao__conteudo p {
+  font-size: 3.8vw;
 }
+
 
 .cartao__conteudo__pergunta,
 .cartao__conteudo__resposta {
@@ -109,6 +107,13 @@ footer p {
 
   body {
     background: url('img/bd-mobile.webp');
+}
+.cartao {
+  flex: 1 0 calc(100% - 1rem)
+}
+
+.cartao__conteudo h3 {
+  font-size: 3vw;
 }
 
 }
